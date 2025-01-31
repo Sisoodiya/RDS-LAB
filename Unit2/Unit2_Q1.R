@@ -9,6 +9,5 @@ Lname <- c("L1","L2", "L3", "L4", "L5", "L6")
 
 # Array initialization.
 
-Array <- array(data = 1:48 , dim = c(4,2,6) , dimnames = list(Rname , Cname , Lname)) 
-
+Array <- array(data = seq(from = 4.8 , to = 0.1 , length.out = 4*2*6 ) , dim = c(4,2,6) , dimnames = list(Rname , Cname , Lname))
 print(Array) 
