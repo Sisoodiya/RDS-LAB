@@ -1,5 +1,5 @@
 ## Q4.Create a new array comprised of the results of deleting the sixth layer of (1).
-## Q6.Overwrite the second and fourth row elements of the second column of layers 1,3 and 5 of (Q4) with -99.
+## Q5.Overwrite the second and fourth row elements of the second column of layers 1,3 and 5 of (Q4) with -99.
 
 # Array from Q1.
 Rname <- c("R1" , "R2", "R3", "R4")
