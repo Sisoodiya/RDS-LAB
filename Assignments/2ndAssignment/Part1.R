@@ -30,7 +30,7 @@ print(Result)
 ## Q5. Store the bottom four elements of (3.) as a new 2 x 2 matrix.
 
 # Solution :
-NewMat <- matrix(data = c(mat1[c(3,4),]) , nrow = 2 , ncol = 2)
+NewMat <- matrix(data = mat1[c(3,4),] , nrow = 2 , ncol = 2)
 print(NewMat)
 
 
@@ -38,5 +38,5 @@ print(NewMat)
 #     and (1;1) with -1/2 of the two values on the diagonal of (e).
 
 # Solution :
--1/2*c(diag(NewMat)) -> mat1[c(4,1) , c(2,1)]
+-1/2*diag(NewMat) -> mat1[c(4,1) , c(2,1)]
 print(mat1)
