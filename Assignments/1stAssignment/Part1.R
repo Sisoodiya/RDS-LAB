@@ -32,7 +32,7 @@ Sol3 <- rep(x = V1 , each = 10 , times = 2 )
 # Solution :
 Vi <- 6:12
 Vii <- rep(x = 5.3 , times = 3)
-Viii <- c(as.integer(x = -3))
+Viii <- as.integer(x = -3)
 Viv <- seq(from = 104 , to = length(Sol3) , length.out = 9)
 
 Sol4 <- c(Vi , Vii , Viii , Viv)

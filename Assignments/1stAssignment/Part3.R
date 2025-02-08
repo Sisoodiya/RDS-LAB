@@ -15,7 +15,7 @@ Vec3 <- as.integer(Vec1 == Vec2)
 
 # Solution :
 Feh <- c(45, 77, 20, 19, 101, 120, 212)
-Cel <- c(5/9*(Feh - 32))
+Cel <- 5/9*(Feh - 32)
 # print(Cel)
 
 

@@ -76,8 +76,8 @@ Sol22 <- c(Step1 , Step2 , Val)
 
 # Solution :
 Vectorin2 <- sort(x = Sol1)
-Obj1 <- c(Vectorin2[c(1,3)])
-Obj2 <- c(Vectorin2[-c(1,3)])
+Obj1 <- Vectorin2[c(1,3)]
+Obj2 <- Vectorin2[-c(1,3)]
 Sol23 <- sort(x = c(Obj1 , Obj2))
 # print(Sol23) 
 
@@ -96,7 +96,7 @@ Vectorin2[(length(Sol1)/2 - 1) : (length(Sol1)/2 + 1)] <- c(-0.5 , -200 , -0.5)
 # Which vectorized operations in R would facilitate this conversion?
 
 # Solution :
-Vect2 <- c(c(3,1,2,3,1,2,3,1,2) != 2)
+Vect2 <- c(3,1,2,3,1,2,3,1,2) != 2
 Vect2[c(3,6,9)] <- TRUE
 Sol25 <- as.numeric(Vect2) * 2L
 # print(Sol25)
@@ -109,7 +109,7 @@ Sol25 <- as.numeric(Vect2) * 2L
 # Solution :
   
 Feh2 <- c(32, 68, 14, 0, 113, 104, 198)
-Cel2 <- c(5/9 * (Feh2 - 32))
+Cel2 <- 5/9 * (Feh2 - 32)
 # print(Cel2)
 # The above way converts each values(degree Fahrenheit) into (degree Celsius) by itrating 
 # over Feh2 vector which contains the temperature readings.
