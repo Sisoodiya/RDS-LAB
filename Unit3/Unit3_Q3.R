@@ -11,4 +11,6 @@ print(substr(x = string, start = 5, stop = 10) == "6-pack")
 print(substring(text = string, first = 5, last = 10) == "6-pack")
 
 # ii.
-substr(x = string, start =  )
+len <- nchar(string)
+substring(text = string, first = len-5, last = len) <- "$10.99"
+print(string)
