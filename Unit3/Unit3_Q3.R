@@ -12,5 +12,7 @@ print(substring(text = string, first = 5, last = 10) == "6-pack")
 
 # ii.
 len <- nchar(string)
-substring(text = string, first = len-5, last = len) <- "$10.99"
+# substr(x = string, start = len-5, stop = len) <- "$10.99"
+# or 
+string <- sub(pattern = "\\$12.99", replacement = "$10.99", x = string)
 print(string)
