@@ -13,6 +13,6 @@ print(substring(text = string, first = 5, last = 10) == "6-pack")
 # ii.
 len <- nchar(string)
 # substr(x = string, start = len-5, stop = len) <- "$10.99"
-# or 
+# Or Better way to do is using the sub() builtin function.
 string <- sub(pattern = "\\$12.99", replacement = "$10.99", x = string)
 print(string)
