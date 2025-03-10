@@ -56,12 +56,21 @@ Sol6 <- sum(some.vector[some.vector])
 
 
 ## Q7. Given a numeric vector, write R code to extract all elements that are greater than 10 using 
-#      logical subsetting.
+#      logical sub-setting.
 
 # Solution : 
 vect.numeric <- c(12,-83,0,32,-1,-4,2,1,73,-12,9,-1,10,2,-43)
 print(vect.numeric[vect.numeric > 10])
 
+
+## Q8. For the string "Hello World! Welcome to R programming", write R code to count the number 
+#      of characters (using nchar()) and extract the substring "R programming".
+
+# Solution :
+some.string <- "Hello World! Welcome to R programming"
+size <- nchar(x = some.string)
+print(size)
+print(substr(x = some.string, start = size - 12, stop = size))
 
 
 
