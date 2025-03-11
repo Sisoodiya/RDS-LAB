@@ -73,4 +73,26 @@ print(size)
 print(substr(x = some.string, start = size - 12, stop = size))
 
 
+## Q9. Write R code that concatenates the strings "Data", "Science", and "R" into a single string 
+#      with hyphens (-) as separators.
 
+# Solution :
+Sol9 <- paste("Data", "Science", "R", sep = "-")
+
+
+## Q10. Write an R script that demonstrates the difference between cat() and paste() by printing 
+#       the same set of words using both functions with a custom separator.
+
+# Solution :
+# cat() - Function always return an output.
+print( class(cat("Data", "Analysis" , "With" , "Python", sep = "+"))) # Will Return NULL and the string
+print( class(paste("Data", "Analysis" , "With" , "Python", sep = "+"))) # Will Return class of data.
+
+
+## Q11. Given the string "apple, apple, and apple", write R code that uses sub() to replace only the 
+#       first occurrence of "apple" with "orange", and gsub() to replace all occurrences.
+
+# Solution : 
+ex.string <- "apple, apple, and apple"
+sub.string <- sub(pattern = "apple", replacement = "orange", x = ex.string)
+gsub.string <- gsub(pattern = "apple", replacement = "orange", x = ex.string)
