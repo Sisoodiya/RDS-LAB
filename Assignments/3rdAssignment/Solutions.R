@@ -10,7 +10,7 @@ Sol1 <- rep(x = c(TRUE, FALSE), times = 6)
 # Solution :
 input.vector <- c(-100, 23, 45, 67, -99, 27, -23, 4, 0, -2, -556)
 Sol2 <- input.vector < 0
-# print(Sol2)
+print(Sol2)
 
 
 ## Q3. Given two numeric vectors of equal length, write R code to check if they are element-wise 
@@ -96,3 +96,48 @@ print( class(paste("Data", "Analysis" , "With" , "Python", sep = "+"))) # Will R
 ex.string <- "apple, apple, and apple"
 sub.string <- sub(pattern = "apple", replacement = "orange", x = ex.string)
 gsub.string <- gsub(pattern = "apple", replacement = "orange", x = ex.string)
+
+
+## Q12. Convert the character vector c("male", "female", "male", "female") into a factor. Display the factor 
+#       and its levels.
+
+# Solution :
+char.vect <- c("male", "female", "male", "female")
+char.fact <- factor(x = char.vect)
+print(char.fact)
+print(levels(char.fact))
+
+
+## Q13. Create a factor from the vector c("Jan", "Mar", "Feb", "Apr", "May", "Dec", "Nov") and order the factor 
+#       to reflect the natural calendar order (January to December). Display the ordered factor.
+
+# Solution :
+some.vect <- c("Jan", "Mar", "Feb", "Apr", "May", "Dec", "Nov") 
+lvl <- c("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+cal.fact <- factor(x = some.vect, levels = lvl, ordered = TRUE)
+print(cal.fact)
+
+
+## Q14. Given a factor vector of genders (e.g., gender <- factor(c("male", "female", "female", "male", "female"))), 
+#       write R code to extract only the entries corresponding to "female".
+
+# Solution :
+gender <- factor(x = c("male", "female", "female", "male", "female", "male", "female", "female", "female", "male"))
+print(gender[gender == "female"])
+print(which(x= gender == "female"))
+
+
+## Q15. Write a function that takes a numeric vector and bins the data into three categories: "Low", "Medium",
+#       and "High". Use the cut() function and return the resulting factor.
+
+# Solution :
+vect1 <- c(15, 45, 55, 32, 21, 90, 100, 80, 71) 
+bin <- c(0, 30, 70, 100)
+lbl <- c("Low", "Medium", "High")
+Sol15 <- cut(x = vect1, breaks = bin, labels = lbl, include.lowest = TRUE, Right = FALSE)
+print(Sol15)
+
+
+
+
+
