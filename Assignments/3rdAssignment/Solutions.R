@@ -138,6 +138,22 @@ Sol15 <- cut(x = vect1, breaks = bin, labels = lbl, include.lowest = TRUE, Right
 print(Sol15)
 
 
+## Q16. Create a logical vector and demonstrate the use of the any() and all() functions. Explain, via comments, 
+#       a scenario where any() returns TRUE but all() returns FALSE.
+
+# Solution :
+vect1.logical <- rep(x = TRUE, times = 10)
+vect2.logical <- c(FALSE, FALSE, TRUE, FALSE, FALSE)
+print(any(vect2.logical))
+print(all(vect1.logical))
+
+# Scenario
+logical.vect <- rep(x = c(TRUE, FALSE, FALSE, TRUE), times = 2, each = 2)
+print(any(logical.vect)) # Returns TRUE when any value inside the given vector is TRUE, and not 0 and "".
+print(all(logical.vect)) # Returns TRUE when all values inside the given vector is TRUE, and not 0 and "".
 
 
+## Q17. Given two logical vectors, write R code to perform element-wise logical AND, OR, and NOT operations. 
+#       Print the results.
 
+# Solution : 
