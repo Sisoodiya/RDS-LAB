@@ -157,3 +157,15 @@ print(all(logical.vect)) # Returns TRUE when all values inside the given vector 
 #       Print the results.
 
 # Solution : 
+
+
+
+
+
+
+
+
+
+
+
+
