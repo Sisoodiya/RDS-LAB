@@ -157,15 +157,61 @@ print(all(logical.vect)) # Returns TRUE when all values inside the given vector 
 #       Print the results.
 
 # Solution : 
+# Define two logical vectors
+vector1 <- c(TRUE, FALSE, TRUE, FALSE)
+vector2 <- c(TRUE, TRUE, FALSE, FALSE)
+
+# Perform element-wise logical operations
+logical_and <- vector1 & vector2  # Element-wise AND
+logical_or <- vector1 | vector2   # Element-wise OR
+logical_not1 <- !vector1          # Element-wise NOT for vector1
+logical_not2 <- !vector2          # Element-wise NOT for vector2
+
+# Print results
+print(logical_and)
+print(logical_or)
+print(logical_not1)
+print(logical_not2)
 
 
+## Q18. Given a numeric vector, write R code to create a new vector where all values less than the mean of the 
+#       vector are replaced with NA.
+
+# Solution :
+vect_1 <- c(3,3,2,1,4,5,3,2,1,2,3,3,2,1,2,3)
+vect_1[vect_1 == floor(mean(x = vect_1, na.rm = TRUE))] <- NA
+print(vect_1)
 
 
+## Q19. Write an R script to compare two strings alphabetically using relational operators. Explain via comments
+#       how R determines the order (considering case sensitivity).
+
+# Solution :
+# Define two strings
+string1 <- "Apple"
+string2 <- "Banana"
+
+# Compare the strings using relational operators
+print(string1 < string2)   # TRUE if string1 comes before string2 alphabetically
+print(string1 > string2)   # TRUE if string1 comes after string2 alphabetically
+print(string1 == string2)  # TRUE if both strings are exactly the same
+
+# Case Sensitivity Check
+string3 <- "apple"
+
+# Compare with different cases
+print(string1 < string3)   # TRUE if "Apple" comes before "apple"
+
+# Explanation:
+# - R compares strings based on ASCII values.
+# - Uppercase letters (A-Z) have ASCII values 65-90.
+# - Lowercase letters (a-z) have ASCII values 97-122.
+# - Since 'A' (ASCII 65) comes before 'a' (ASCII 97), "Apple" < "apple" is TRUE.
 
 
+## Q20. Write an R script that creates a string containing a newline, tab, and a backslash using escape 
+#       sequences. Print the string to the console using cat().
 
-
-
-
-
-
+# Solution :
+text <- "This is a tab:\tHere\nThis is a new line.\nThis is a backslash: \\"
+cat(text)
