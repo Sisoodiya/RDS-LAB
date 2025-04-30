@@ -1,0 +1,1 @@
+## Q18. Add a new column using the cbind() function to a data frame.
