@@ -1,5 +1,6 @@
-## Q18. Add a new column using the cbind() function to a data frame.
-# Solution :- 
+## Q20. Extract all rows from a data frame where a character column has a specific value.
+# Solution :-
+
 
 some_dataframe <- data.frame(
   Name = c(
@@ -15,9 +16,5 @@ some_dataframe <- data.frame(
   )
 )
 
-
-some_dataframe <- cbind(some_dataframe,
-                  Fail = (some_dataframe$Remarks == "FF")      
-                  )
-# After adding the column
-print(some_dataframe)
+# To extract all rows 
+print( some_dataframe[some_dataframe$Name == "Abhay Singh",])
