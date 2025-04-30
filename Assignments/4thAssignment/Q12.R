@@ -3,6 +3,7 @@
 
 sol11 <- list(
   first = list(
+    numeric_vect = c(1 ,2 ,3 ,4 ,2 , 10, 30),
     character_vect = c("Abhay", "Aman", "Dipa", "Shilpa")
   ),
   second = "This is a list with three element.",
