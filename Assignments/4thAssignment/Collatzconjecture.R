@@ -1,7 +1,9 @@
-# This file will store a function named "CollatzConjecture" that will take in an user input
+# This file will stores the code snippet for the function named "CollatzConjecture" that will take in an user input.
 # This user input will be the number we want to make the Collatz conjecture of.
+# The function will return an ordered factor of the conjecture.
 
 add_to_factor <- function(factor_vec, new_elem) {
+  # This function adds a new element in a predefined function and also updates its levels.
   new_elem <- as.character(new_elem)  # Convert to character to ensure proper level matching
   
   # Add new level if not present
