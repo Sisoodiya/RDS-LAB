@@ -19,7 +19,7 @@ num_col_extract <- function(dataframe){
       col_vect <- c(col_vect, name)
     }
   }
-  return(example_data[, col_vect])
+  return(dataframe[, col_vect])
 }
 
 print(num_col_extract(example_data))
