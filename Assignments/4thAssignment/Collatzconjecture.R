@@ -1,4 +1,4 @@
-# This file will stores the code snippet for the function named "CollatzConjecture" that will take in an user input.
+# This file stores the code snippet for the function named "CollatzConjecture" that will take in an user input.
 # This user input will be the number we want to make the Collatz conjecture of.
 # The function will return an ordered factor of the conjecture.
 
