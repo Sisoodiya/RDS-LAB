@@ -40,7 +40,7 @@ The repository includes five assignment sets completed as part of the course cur
 
 ### Prerequisites
 - R (version 3.0.0 or higher recommended)
-- RStudio (recommended for easier code execution and visualization)
+- RStudio (recommended for easier code execution and visualisation)
 
 ### Running the Code
 1. Clone this repository to your local machine
@@ -49,7 +49,7 @@ The repository includes five assignment sets completed as part of the course cur
 
 ## Features
 - Well-documented R scripts with clear comments
-- Organized by units and topics for easy navigation
+- Organised by units and topics for easy navigation
 - Includes both basic and advanced R programming concepts
 - Output files stored in respective unit folders
 
