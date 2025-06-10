@@ -1,12 +1,12 @@
 # R for Data Science Laboratory (RDS-LAB)
 
 ## Overview
-This repository contains a comprehensive collection of lab activities, assignments, and code examples from my R for Data Science course. The codebase demonstrates various R programming concepts, data manipulation techniques, statistical analysis, and visualization methods learned throughout the course.
+This repository contains a comprehensive collection of lab activities, assignments, and code examples from my R for Data Science course. The codebase demonstrates various R programming concepts, data manipulation techniques, statistical analysis, and visualisation methods learned throughout the course.
 
 ## Repository Structure
 
 ### Units
-The repository is organized into four main units, each focusing on different aspects of R programming:
+The repository is organised into four main units, each focusing on different aspects of R programming:
 
 - **Unit 1**: Basic R programming concepts
   - Mathematical computations (square, square root, exponential operations)
@@ -40,7 +40,7 @@ The repository includes five assignment sets completed as part of the course cur
 
 ### Prerequisites
 - R (version 3.0.0 or higher recommended)
-- RStudio (recommended for easier code execution and visualization)
+- RStudio (recommended for easier code execution and visualisation)
 
 ### Running the Code
 1. Clone this repository to your local machine
@@ -49,7 +49,7 @@ The repository includes five assignment sets completed as part of the course cur
 
 ## Features
 - Well-documented R scripts with clear comments
-- Organized by units and topics for easy navigation
+- Organised by units and topics for easy navigation
 - Includes both basic and advanced R programming concepts
 - Output files stored in respective unit folders
 
