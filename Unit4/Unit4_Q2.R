@@ -2,7 +2,7 @@
 #      your R work space. Append the two new records.
 
 # Solutions :
-person <- c("Abhay", "Sanjay", "Harsh", "Anjali", "Priyanshi", "Abhishek", "Harshita")
+person <- c("Abhay", "Sanjay", "Anjali", "Priyanshi", "Abhishek", "Harshita", "Harsh")
 sex <- c("M", "M", "F", "F", "M", "F", "M")
 funny <- c(FALSE, TRUE, FALSE, FALSE, FALSE, TRUE, TRUE)
 
