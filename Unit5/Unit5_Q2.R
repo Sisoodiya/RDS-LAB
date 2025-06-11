@@ -1,5 +1,5 @@
-## Q2. Create a plot using ggplot2 for the same database consists of weight on the x-axis and height on the 
-#      y- axis. Use different point characters or colors to distinguish between males and females and provide
+## Q2. Create a plot using ggplot2 for the same database, consisting of weight on the x-axis and height on the 
+#      y-axis. Use different point characters or colours to distinguish between males and females and provide
 #      a matching legend. Label the axes and give the plot a title.
 
 # Solution :
