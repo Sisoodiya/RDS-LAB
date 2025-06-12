@@ -1,5 +1,5 @@
-## Q1 .Create database with the fields of weight, height and sex then create a plot of weight 
-#      on the x-axis and height on the y axis. Use different point characters or colours to distinguish 
+## Q1 .Create a database with the fields of weight, height, and sex, then create a plot of weight 
+#      on the x-axis and height on the y-axis. Use different point characters or colours to distinguish 
 #      between males and females and provide a matching legend. Label the axis and give the plot a title. 
 
 # Solution :
