@@ -5,7 +5,7 @@
 # Solution :
 library(ggplot2)
 ggplot(data = data, aes(x = weight, y = height, col = sex, shape = sex)) +
-  geom_point(size = 3) +
+  geom_point() +
   labs(
     title = "Height vs Weight by Sex (ggplot2)",
     x = "Weight (in kg)",
