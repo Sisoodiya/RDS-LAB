@@ -53,8 +53,7 @@ The repository includes five assignment sets completed as part of the course cur
 - Includes both basic and advanced R programming concepts
 - Output files stored in respective unit folders
 
-## License
-This project is licensed under the terms included in the LICENSE file.
 
 ## Author
 Abhay Singh Sisoodiya
+
