@@ -6,7 +6,7 @@ This repository contains a comprehensive collection of lab activities, assignmen
 ## Repository Structure
 
 ### Units
-The repository is organised into four main units, each focusing on different aspects of R programming:
+The repository is organized into four main units, each focusing on different aspects of R programming:
 
 - **Unit 1**: Basic R programming concepts
   - Mathematical computations (square, square root, exponential operations)
