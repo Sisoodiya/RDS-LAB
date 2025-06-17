@@ -51,7 +51,7 @@ The repository includes five assignment sets completed as part of the course cur
 - Well-documented R scripts with clear comments
 - Organised by units and topics for easy navigation
 - Includes both basic and advanced R programming concepts
-- Output files stored in respective unit folders
+- Output files stored in respective unit folders.
 
 
 ## Author
