@@ -11,7 +11,7 @@ The repository is organized into four main units, each focusing on different asp
 - **Unit 1**: Basic R programming concepts
   - Mathematical computations (square, square root, exponential operations)
   - Variable assignment and basic operations
-  - Simple data structures
+
 
 - **Unit 2**: Data structures and array manipulation
   - Multi-dimensional arrays
