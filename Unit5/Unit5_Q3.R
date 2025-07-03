@@ -26,3 +26,4 @@ legend("topleft", legend = c("Prestige <= 80", "Prestige > 80"),
        pch = c(8, 64),
        col = c("black", "blue")
 )
+
